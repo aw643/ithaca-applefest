@@ -1,0 +1,203 @@
+/*-------------------------------------------------*/
+/*------style sheet for p1_final-----------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+/* global reset */
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	background-color: #A62639;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*-------------------------------------------------*/
+/*------styling by section-------------------------*/
+/*-------------------------------------------------*/
+
+#wrapper {
+	width: 70%;
+	/*height: 100%;*/
+	border: 1px dotted #4472CA;
+	margin: auto;
+	position: relative;
+	background-color: #F5D6BA;
+}
+#banner {
+	position: relative;
+	width: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h1 {
+	font-family: 'Love Ya Like A Sister';
+	/*background-color: #D5E68D;*/
+	font-size: 3.2em;
+	position: absolute;
+	top: 50px;
+	/*left: 0;*/
+	width: 100%;
+	/*padding: 10px;*/
+}
+
+h2 {
+	font-family: 'Raleway';
+	background-color: #ACC3A6;
+	text-align: center; 
+}
+
+h3 {
+	font-family: 'Raleway';
+	background-color: #B49DAA;
+	text-shadow: 1px 1px 4px pink, 0 0 25px pink, 0 0 20px white;
+}
+
+h3.white {
+	color: #331D20;
+	font-size: 23px;
+	background-color: #F5D6BA;
+}
+
+h6 {
+	font-family: 'Raleway';
+	text-align: center;
+	word-wrap: break-word;
+}
+
+h1.center {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+#navbar {
+	/*border: 1px solid #4472CA;*/
+	/*text-align: center;*/
+	/*max-width: 795px;*/
+}
+
+ul {
+	list-style-type: none;
+	max-width: 1087px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+#navbar li {
+	display: inline;
+	/*text-align: center;*/
+	margin: auto;
+}
+
+a:link, a:visited {
+	display: inline-block;
+	color: #F9EAE1;
+	background-color: #A62639;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-radius: 10px;
+	font-family: 'Nixie One', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+a:hover, a:active {
+	background-color: #6B0504;
+}
+
+img {
+	/*border: 1px solid #4472CA;*/
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+/*Image hover code credits to http://stackoverflow.com/questions/22492498/css-resize-zoom-in-effect-on-image-while-keeping-dimensions*/
+img:hover {
+	transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+
+#photo {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#photo2 {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#photo3 {
+	float: left;
+	padding-left: 10px;
+}
+
+#words {
+	float: right;
+}
+
+.image {
+	float: left;
+}
+
+.video {
+	max-width: 70%;
+	/*border: 1px solid #4472CA;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 0;
+	padding-top: 30px;
+	/*height: 0;*/
+	overflow: hidden;
+}
+
+.video-container iframe {
+	height: 315px;
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.video-container object,
+.video-container embed {
+	margin: auto;
+	display: block;
+}
+
+form {
+	width: 440px;
+	margin: auto;
+	text-align: center;
+	border: 3px dashed #ccc;
+	/*background-color: #A5D0A8;*/
+}
+
+.error {
+	color: red;
+}
